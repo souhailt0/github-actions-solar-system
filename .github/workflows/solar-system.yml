@@ -50,7 +50,7 @@ jobs:
           run: npm install
     
         - name: run code coverage
-          run: npm run code-coverage
+          run: npm run coverage
         - name: Archive Test Result
           if: always()
           uses: actions/upload-artifact@v3
